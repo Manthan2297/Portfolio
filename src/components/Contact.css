@@ -1,0 +1,108 @@
+/* Gradient Background Animation */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.contact-container {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b, #1e90ff, #00bcd4);
+  background-size: 300% 300%;
+  animation: gradientAnimation 12s ease infinite;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header */
+.contact-header {
+  font-size: 3rem;
+  color: #ffd700;
+  font-weight: bold;
+
+
+}
+
+.contact-subtitle {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+/* Cards Section */
+.contact-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contact-card {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  padding: 30px 20px;
+  color: #fff;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
+}
+
+.contact-icon {
+  font-size: 3rem;
+  color: #ff7a18;
+  margin-bottom: 15px;
+}
+
+.contact-card h2 {
+  font-size: 1.8rem;
+  color: #17d4fc;
+  margin-bottom: 10px;
+}
+
+.contact-card p {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.contact-btn {
+  background-color: #ff7a18;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: #e06915;
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+  .contact-container {
+    padding: 10px;
+
+  }
+
+}
