@@ -22,6 +22,8 @@
   height: 100vh;
   background: linear-gradient(135deg, #ff416c, #ff4b2b, #1e90ff, #00bcd4);
   font-family: "Poppins", sans-serif;
+  animation: gradientAnimation 12s ease infinite;
+  background-size: 300% 300%;
 
 }
 

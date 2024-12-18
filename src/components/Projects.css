@@ -1,3 +1,25 @@
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.project-container {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b, #1e90ff, #00bcd4);
+  background-size: 300% 300%;
+  animation: gradientAnimation 12s ease infinite;
+
+}
+
+
 .project-section {
   max-width: 1200px;
 
@@ -5,6 +27,8 @@
   display: flex;
   justify-content: center;
   gap: 40px;
+
+
 
 
 }
@@ -19,7 +43,8 @@
 
   padding: 20px;
   border-radius: 10px;
-  background: #1a1a1a56;
+  background: #3b2b2b56;
+
 
 
 

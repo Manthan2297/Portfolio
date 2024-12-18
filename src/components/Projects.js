@@ -49,56 +49,58 @@ const Projects = () => {
   };
 
   return (
-    <section className="project-section">
-      <div className="project-content">
-        <div className="project-info">
-          <div className="project-number-box">
-            <span className="project-number">{`0${currentIndex + 1}`}</span>
-          </div>
-          <h2 className="project-title">{projects[currentIndex].title}</h2>
-          <p className="project-description">
-            {projects[currentIndex].description}
-          </p>
-          <div className="project-tech">
-            {projects[currentIndex].techStack
-              .split(" , ")
-              .map((tech, index) => (
-                <span key={index}>{tech}</span>
-              ))}
-          </div>
-          <div className="project-actions">
-            <a href="#" className="action-btn" title="Documentation">
-              <FaFileDownload />
+    <div className="project-container">
+      <section className="project-section">
+        <div className="project-content">
+          <div className="project-info">
+            <div className="project-number-box">
+              <span className="project-number">{`0${currentIndex + 1}`}</span>
+            </div>
+            <h2 className="project-title">{projects[currentIndex].title}</h2>
+            <p className="project-description">
+              {projects[currentIndex].description}
+            </p>
+            <div className="project-tech">
+              {projects[currentIndex].techStack
+                .split(" , ")
+                .map((tech, index) => (
+                  <span key={index}>{tech}</span>
+                ))}
+            </div>
+            {/*<div className="project-actions">
+              <a href="#" className="action-btn" title="Documentation">
+                <FaFileDownload />
 
-              <i className="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
+                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+              </a> 
+            </div>*/}
+          </div>
+          <div className="project-video-wrapper">
+            <video
+              src={projects[currentIndex].video}
+              controls
+              className="project-video"
+            ></video>
+            <div className="project-nav">
+              <button
+                className="nav-btn prev-btn"
+                title="Previous Project"
+                onClick={previousProject}
+              >
+                &lt;
+              </button>
+              <button
+                className="nav-btn next-btn"
+                title="Next Project"
+                onClick={nextProject}
+              >
+                &gt;
+              </button>
+            </div>
           </div>
         </div>
-        <div className="project-video-wrapper">
-          <video
-            src={projects[currentIndex].video}
-            controls
-            className="project-video"
-          ></video>
-          <div className="project-nav">
-            <button
-              className="nav-btn prev-btn"
-              title="Previous Project"
-              onClick={previousProject}
-            >
-              &lt;
-            </button>
-            <button
-              className="nav-btn next-btn"
-              title="Next Project"
-              onClick={nextProject}
-            >
-              &gt;
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 };
 

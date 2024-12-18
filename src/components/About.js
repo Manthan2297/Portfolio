@@ -60,8 +60,8 @@ const About = () => {
   const stats = [
     { value: "2+", label: "Years of Experience" },
     { value: "20+", label: "Projects Delivered" },
-    { value: "8+", label: "Certifications Achieved" },
-    { value: "10+", label: "Technologies Mastered" },
+    { value: "4+", label: "Certifications Achieved" },
+    { value: "3+", label: "Technologies Mastered" },
     { value: "95%", label: "Client Satisfaction Rate" },
     { value: "4+", label: "Programming Languages Expertise" },
     { value: "3K+", label: "Lines of Code Written" },
