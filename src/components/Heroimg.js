@@ -27,7 +27,6 @@ const Heroimg = () => {
             <a
               href="https://www.linkedin.com/in/manthan-mohile-1b1b3b1b3/"
               target="_blank"
-              rel="noopener noreferrer"
             >
               <FaLinkedin />
             </a>
