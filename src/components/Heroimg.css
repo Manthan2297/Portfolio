@@ -1,0 +1,137 @@
+/* Full-Screen Gradient Background */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b, #1e90ff, #00bcd4);
+  font-family: "Poppins", sans-serif;
+  animation: gradientAnimation 12s ease infinite;
+  background-size: 300% 300%;
+
+}
+
+/* Profile Card */
+.profile-card.enhanced-card {
+  display: flex;
+  align-items: center;
+  background: #1f1f1f;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  max-width: 700px;
+  position: relative;
+  overflow: visible;
+  /* Allow image to overflow outside */
+  color: #fff;
+}
+
+/* Image Positioned Half Inside and Half Outside */
+.profile-image {
+  position: absolute;
+  top: -60px;
+  /* Adjust upward */
+  left: -60px;
+  /* Adjust leftward */
+  z-index: 2;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #1f1f1f;
+  /* Match card background */
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Content Section */
+.profile-content {
+  padding: 2rem 2rem 2rem 6rem;
+  /* Space for image overlap */
+  flex: 1;
+  text-align: left;
+}
+
+/* Typography */
+.name {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  color: #ff7a18;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  opacity: 0.8;
+  margin-bottom: 1.5rem;
+}
+
+/* Social Buttons */
+.social-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-buttons a {
+  background: #ff7a18;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-buttons a:hover {
+  background: #fff;
+  color: #ff7a18;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  .profile-card {
+    flex-direction: column;
+    text-align: center;
+    margin: 2rem;
+  }
+
+  .profile-content {
+    padding: 2rem;
+  }
+
+  .profile-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 1rem;
+    margin-top: -60px;
+
+
+  }
+
+}
