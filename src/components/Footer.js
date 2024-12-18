@@ -6,7 +6,6 @@ import {
   FaLinkedin,
   FaMailBulk,
   FaPhone,
-  FaFacebook,
 } from "react-icons/fa";
 import "./Footer.css";
 
@@ -45,6 +44,7 @@ const Footer = () => {
             <a
               href="https://www.linkedin.com/in/manthan-mohile-1b1b3b1b3/"
               target="_blank"
+              rel="noopener noreferrer"
               className="footer__social-link"
             >
               <FaLinkedin className="footer__icon" />
@@ -53,6 +53,7 @@ const Footer = () => {
             <a
               href="https://github.com/Manthan2297"
               target="_blank"
+              rel="noopener noreferrer"
               className="footer__social-link"
             >
               <FaGithub className="footer__icon" />
@@ -61,6 +62,7 @@ const Footer = () => {
             <a
               href="https://www.instagram.com/manthan_mohile/"
               target="_blank"
+              rel="noopener noreferrer"
               className="footer__social-link"
             >
               <FaInstagram className="footer__icon" />
