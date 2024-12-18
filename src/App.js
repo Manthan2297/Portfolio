@@ -5,7 +5,7 @@ import Project from "./routes/project";
 import Contact from "./routes/contact";
 import About from "./routes/about";
 
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Use Routes instead of Switch
+import { BrowserRouter as Route, Routes } from "react-router-dom"; // Use Routes instead of Switch
 
 function App() {
   return (

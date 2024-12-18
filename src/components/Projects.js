@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Projects.css";
 import AmazonCloneVideo from "../Assests/Amazon-Clone.mp4";
 import CarRentalVideo from "../Assests/Cart rental.mp4";
-import { FaFileDownload } from "react-icons/fa";
+//import { FaFileDownload } from "react-icons/fa";
 import TargetCloneVideo from "../Assests/Target.mp4";
 
 const Projects = () => {

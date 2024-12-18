@@ -7,7 +7,6 @@ const project = () => {
   return (
     <div>
       <Navbar />
-
       <Projects />
     </div>
   );
