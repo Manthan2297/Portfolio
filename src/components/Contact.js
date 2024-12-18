@@ -40,7 +40,12 @@ const Contact = () => {
             <div className="contact-icon">{item.icon}</div>
             <h2>{item.title}</h2>
             <p>{item.content}</p>
-            <a href={item.link} target="_blank" className="contact-btn">
+            <a
+              href={item.link}
+              target="_blank"
+              className="contact-btn"
+              rel="noopener noreferrer"
+            >
               {item.linkText}
             </a>
           </div>
