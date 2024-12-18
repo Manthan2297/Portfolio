@@ -31,11 +31,7 @@ const Heroimg = () => {
             >
               <FaLinkedin />
             </a>
-            <a
-              href="https://github.com/Manthan2297"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://github.com/Manthan2297" target="_blank">
               <FaGithub />
             </a>
             <a
