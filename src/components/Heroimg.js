@@ -27,16 +27,22 @@ const Heroimg = () => {
             <a
               href="https://www.linkedin.com/in/manthan-mohile-1b1b3b1b3/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <FaLinkedin />
             </a>
-            <a href="https://github.com/Manthan2297" target="_blank">
+            <a
+              href="https://github.com/Manthan2297"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub />
             </a>
             <a
               href={resume}
               download="Manthan_Mohile_Resume.pdf"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <FaFileAlt />
             </a>
