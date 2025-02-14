@@ -5,7 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 
 // Create a root using createRoot
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("root")); // Ensure the element with id 'root' exists in your index.html
 root.render(
   <React.StrictMode>
     <BrowserRouter basename="/Portfolio">
