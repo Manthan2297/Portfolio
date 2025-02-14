@@ -1,9 +1,12 @@
 {
   "files": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "main.css": "/Portfolio/static/css/main.253aae65.css",
     "main.js": "/Portfolio/static/js/main.b9de16a5.js",
 =======
+=======
+>>>>>>> parent of 2813a47 (Changes in file)
     "main.css": "/Portfolio/static/css/main.e7616cb2.css",
     "main.js": "/Portfolio/static/js/main.3fea4005.js",
 >>>>>>> parent of 2813a47 (Changes in file)
@@ -13,6 +16,7 @@
     "static/media/Manthan Mohile.pdf": "/Portfolio/static/media/Manthan Mohile.f05cad00b6272acb8978.pdf",
     "static/media/Home-pg.jpg": "/Portfolio/static/media/Home-pg.5a250a55c2e0af4bc135.jpg",
     "index.html": "/Portfolio/index.html",
+<<<<<<< HEAD
 <<<<<<< HEAD
     "main.253aae65.css.map": "/Portfolio/static/css/main.253aae65.css.map",
     "main.b9de16a5.js.map": "/Portfolio/static/js/main.b9de16a5.js.map"
@@ -25,6 +29,12 @@
     "main.3fea4005.js.map": "/Portfolio/static/js/main.3fea4005.js.map"
   },
   "entrypoints": [
+=======
+    "main.e7616cb2.css.map": "/Portfolio/static/css/main.e7616cb2.css.map",
+    "main.3fea4005.js.map": "/Portfolio/static/js/main.3fea4005.js.map"
+  },
+  "entrypoints": [
+>>>>>>> parent of 2813a47 (Changes in file)
     "static/css/main.e7616cb2.css",
     "static/js/main.3fea4005.js"
 >>>>>>> parent of 2813a47 (Changes in file)
