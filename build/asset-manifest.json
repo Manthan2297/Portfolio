@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.4c961d57.css",
+    "main.js": "/Portfolio/static/js/main.e94e2faa.js",
+    "static/media/Cart rental.mp4": "/Portfolio/static/media/Cart rental.22ae672509ac3f8af858.mp4",
+    "static/media/Target.mp4": "/Portfolio/static/media/Target.68dd7d162c27f4e7a914.mp4",
+    "static/media/Amazon-Clone.mp4": "/Portfolio/static/media/Amazon-Clone.910772b0a81936705222.mp4",
+    "static/media/Manthan Mohile.pdf": "/Portfolio/static/media/Manthan Mohile.2c2859c0135507349b7a.pdf",
+    "static/media/Home-pg.jpg": "/Portfolio/static/media/Home-pg.5a250a55c2e0af4bc135.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.4c961d57.css.map": "/Portfolio/static/css/main.4c961d57.css.map",
+    "main.e94e2faa.js.map": "/Portfolio/static/js/main.e94e2faa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c961d57.css",
+    "static/js/main.e94e2faa.js"
+  ]
+}
